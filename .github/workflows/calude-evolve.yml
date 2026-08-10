@@ -1,0 +1,57 @@
+name: Claude Evolve (autonomo)
+
+# Loop 2: a IA le o repo, propoe melhorias no codigo do app/scripts,
+# abre PR e faz merge sozinha, sem revisao humana (conforme solicitado).
+#
+# Requer o secret ANTHROPIC_API_KEY no repositorio (Settings > Secrets
+# and variables > Actions). Isso NAO e gratuito: cada execucao consome
+# creditos da API da Anthropic. O agendamento abaixo (1x/dia) e um teto
+# de custo, nao um "gate" de qualidade — ajuste a vontade.
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 1x por dia, 06:00 UTC
+  workflow_dispatch: {}
+
+concurrency:
+  group: claude-evolve
+  cancel-in-progress: false # nunca cancela um run pela metade (evita estado quebrado)
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  evolve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Rodar Claude Code em modo automacao
+        id: claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            Voce esta evoluindo o app CryptoRadar (PWA + pipeline de dados).
+            Analise o repositorio, escolha UMA melhoria pequena e segura
+            (bug fix, refactor, melhoria de UI, performance, ou pequena
+            feature alinhada ao README), implemente, garanta que
+            `npm install && npm run analyze` nao quebra usando o arquivo
+            data/raw-candidates.json de exemplo, e abra um Pull Request
+            com uma descricao clara do que mudou e por que.
+            Nao altere secrets, workflows de CI, nem chaves de API.
+          claude_args: |
+            --max-turns 40
+
+      - name: Auto-merge do PR criado
+        if: steps.claude.outputs.pr_number
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge ${{ steps.claude.outputs.pr_number }} \
+            --squash --auto --delete-branch
