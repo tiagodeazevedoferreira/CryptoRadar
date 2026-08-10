@@ -1,0 +1,19 @@
+{
+  "name": "cryptoradar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Radar automatizado de criptomoedas novas com pontuacao heuristica de sinais de crescimento agressivo",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-coingecko.js",
+    "analyze": "node scripts/analyze.js",
+    "sync-firebase": "node scripts/write-firebase.js",
+    "pipeline": "npm run fetch && npm run analyze && npm run sync-firebase"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
