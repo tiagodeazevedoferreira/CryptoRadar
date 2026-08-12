@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-12T01:14:02.483Z",
+  "generated_at": "2026-08-12T03:58:51.821Z",
   "disclaimer": "Watchlist heuristica baseada em sinais publicos (volume, momentum). Nao e recomendacao de investimento. Moedas com esse perfil tem alto risco, incluindo pump-and-dump.",
   "trending_now": [
     {
       "id": "holoworld",
       "symbol": "HOLO",
       "name": "Holoworld",
-      "market_cap_rank": 169
-    },
-    {
-      "id": "ripple",
-      "symbol": "XRP",
-      "name": "XRP",
-      "market_cap_rank": 6
-    },
-    {
-      "id": "pump-fun",
-      "symbol": "PUMP",
-      "name": "Pump.fun",
-      "market_cap_rank": 64
+      "market_cap_rank": 159
     },
     {
       "id": "pons",
       "symbol": "PONS",
       "name": "Pons",
-      "market_cap_rank": 606
+      "market_cap_rank": 635
+    },
+    {
+      "id": "prometeus",
+      "symbol": "PROM",
+      "name": "Prom",
+      "market_cap_rank": 426
+    },
+    {
+      "id": "bitcoin",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "market_cap_rank": 1
     },
     {
       "id": "pudgy-penguins",
@@ -33,10 +33,10 @@
       "market_cap_rank": 106
     },
     {
-      "id": "dogbull",
-      "symbol": "DOGO",
-      "name": "DogBull",
-      "market_cap_rank": 311
+      "id": "ripple",
+      "symbol": "XRP",
+      "name": "XRP",
+      "market_cap_rank": 6
     },
     {
       "id": "solana",
@@ -45,38 +45,38 @@
       "market_cap_rank": 7
     },
     {
-      "id": "ethereum",
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "market_cap_rank": 2
+      "id": "thinking-cat",
+      "symbol": "HMM",
+      "name": "Thinking Cat",
+      "market_cap_rank": 818
     },
     {
-      "id": "stonkbroker",
-      "symbol": "STONKBROKER",
-      "name": "StonkBroker",
-      "market_cap_rank": 408
+      "id": "uniswap",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "market_cap_rank": 36
     },
     {
-      "id": "cap-4",
-      "symbol": "CAP",
-      "name": "Cap",
-      "market_cap_rank": 285
+      "id": "harmony",
+      "symbol": "ONE",
+      "name": "Harmony",
+      "market_cap_rank": 935
     }
   ],
   "watchlist": [
     {
-      "id": "superfortune",
-      "symbol": "gua",
-      "name": "Superfortune",
-      "price_usd": 0.04715964,
-      "market_cap_usd": 2121887,
-      "volume_24h_usd": 11528430,
-      "change_24h_pct": -20.6,
-      "change_7d_pct": 11.9,
-      "signal_score": 83,
+      "id": "bitlayer-bitvm",
+      "symbol": "btr",
+      "name": "Bitlayer",
+      "price_usd": 0.03030901,
+      "market_cap_usd": 7883654,
+      "volume_24h_usd": 18447316,
+      "change_24h_pct": 54.7,
+      "change_7d_pct": 64,
+      "signal_score": 100,
       "signals": {
         "liquidity": 100,
-        "momentum": 52,
+        "momentum": 100,
         "acceleration": 100
       },
       "risk_flags": []
@@ -102,45 +102,66 @@
       "id": "moonriver",
       "symbol": "movr",
       "name": "Moonriver",
-      "price_usd": 0.905495,
-      "market_cap_usd": 11379803,
-      "volume_24h_usd": 11348831,
-      "change_24h_pct": -21.2,
-      "change_7d_pct": -20.6,
-      "signal_score": 69,
+      "price_usd": 0.884702,
+      "market_cap_usd": 11121097,
+      "volume_24h_usd": 9914022,
+      "change_24h_pct": -20.7,
+      "change_7d_pct": -20.5,
+      "signal_score": 66,
       "signals": {
-        "liquidity": 66,
-        "momentum": 53,
-        "acceleration": 91
+        "liquidity": 59,
+        "momentum": 52,
+        "acceleration": 89
       },
       "risk_flags": []
     },
     {
-      "id": "mubarak",
-      "symbol": "mubarak",
-      "name": "Mubarak",
-      "price_usd": 0.01789142,
-      "market_cap_usd": 17903161,
-      "volume_24h_usd": 18089567,
-      "change_24h_pct": -16.8,
-      "change_7d_pct": 32.4,
-      "signal_score": 68,
+      "id": "maya-preferred-mprd",
+      "symbol": "mprd",
+      "name": "Maya Preferred   (MPRD)",
+      "price_usd": 595702,
+      "market_cap_usd": 0,
+      "volume_24h_usd": 10277233,
+      "change_24h_pct": 51.5,
+      "change_7d_pct": 142.2,
+      "signal_score": 65,
       "signals": {
-        "liquidity": 67,
-        "momentum": 42,
+        "liquidity": 0,
+        "momentum": 100,
         "acceleration": 100
       },
-      "risk_flags": []
+      "risk_flags": [
+        "market_cap_muito_baixo"
+      ]
     },
     {
       "id": "vindax-coin",
       "symbol": "vd",
       "name": "VinDax Coin",
-      "price_usd": 0.01907264,
+      "price_usd": 0.01781337,
       "market_cap_usd": 0,
-      "volume_24h_usd": 413.13,
-      "change_24h_pct": 51.9,
-      "change_7d_pct": 18.6,
+      "volume_24h_usd": 424.67,
+      "change_24h_pct": -41.1,
+      "change_7d_pct": -32.7,
+      "signal_score": 65,
+      "signals": {
+        "liquidity": 0,
+        "momentum": 100,
+        "acceleration": 100
+      },
+      "risk_flags": [
+        "market_cap_muito_baixo"
+      ]
+    },
+    {
+      "id": "klay-token",
+      "symbol": "klay",
+      "name": "Klaytn",
+      "price_usd": 0.02684817,
+      "market_cap_usd": 0,
+      "volume_24h_usd": 19430.14,
+      "change_24h_pct": 850.8,
+      "change_7d_pct": 845,
       "signal_score": 65,
       "signals": {
         "liquidity": 0,
@@ -169,6 +190,74 @@
       "risk_flags": [
         "market_cap_muito_baixo"
       ]
+    },
+    {
+      "id": "mubarak",
+      "symbol": "mubarak",
+      "name": "Mubarak",
+      "price_usd": 0.0173822,
+      "market_cap_usd": 17379694,
+      "volume_24h_usd": 16611316,
+      "change_24h_pct": -15.4,
+      "change_7d_pct": 26.1,
+      "signal_score": 64,
+      "signals": {
+        "liquidity": 64,
+        "momentum": 39,
+        "acceleration": 96
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "epic-chain",
+      "symbol": "epic",
+      "name": "Epic Chain",
+      "price_usd": 0.361748,
+      "market_cap_usd": 12173110,
+      "volume_24h_usd": 19644048,
+      "change_24h_pct": -17.7,
+      "change_7d_pct": -65.3,
+      "signal_score": 63,
+      "signals": {
+        "liquidity": 100,
+        "momentum": 44,
+        "acceleration": 42
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
+      "symbol": "korub",
+      "name": "South Korea Bull 3X ETF (bStocks Tokenized Stock)",
+      "price_usd": 18.94,
+      "market_cap_usd": 6582365,
+      "volume_24h_usd": 10342241,
+      "change_24h_pct": 10.7,
+      "change_7d_pct": -1.6,
+      "signal_score": 61,
+      "signals": {
+        "liquidity": 100,
+        "momentum": 27,
+        "acceleration": 55
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "skyai",
+      "symbol": "skyai",
+      "name": "SkyAI",
+      "price_usd": 0.074537,
+      "market_cap_usd": 74548837,
+      "volume_24h_usd": 21037476,
+      "change_24h_pct": -23.7,
+      "change_7d_pct": 22.2,
+      "signal_score": 57,
+      "signals": {
+        "liquidity": 19,
+        "momentum": 59,
+        "acceleration": 100
+      },
+      "risk_flags": []
     },
     {
       "id": "bytecoin",
@@ -209,70 +298,19 @@
       ]
     },
     {
-      "id": "skyai",
-      "symbol": "skyai",
-      "name": "SkyAI",
-      "price_usd": 0.078854,
-      "market_cap_usd": 78766515,
-      "volume_24h_usd": 13244416,
-      "change_24h_pct": -18.2,
-      "change_7d_pct": 50.1,
-      "signal_score": 50,
+      "id": "the-toad-pepe",
+      "symbol": "toad",
+      "name": "The Toad Pepe",
+      "price_usd": 0.01393421,
+      "market_cap_usd": 13385194,
+      "volume_24h_usd": 13661965,
+      "change_24h_pct": -23.6,
+      "change_7d_pct": 0,
+      "signal_score": 53,
       "signals": {
-        "liquidity": 11,
-        "momentum": 45,
-        "acceleration": 100
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "superrare",
-      "symbol": "rare",
-      "name": "SuperRare",
-      "price_usd": 0.01226343,
-      "market_cap_usd": 10066389,
-      "volume_24h_usd": 10114024,
-      "change_24h_pct": -11,
-      "change_7d_pct": 4.3,
-      "signal_score": 50,
-      "signals": {
-        "liquidity": 67,
-        "momentum": 28,
-        "acceleration": 58
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "nillion",
-      "symbol": "nil",
-      "name": "Nillion",
-      "price_usd": 0.03516418,
-      "market_cap_usd": 17568851,
-      "volume_24h_usd": 11773599,
-      "change_24h_pct": -12.8,
-      "change_7d_pct": -1.6,
-      "signal_score": 46,
-      "signals": {
-        "liquidity": 45,
-        "momentum": 32,
-        "acceleration": 63
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "prometeus",
-      "symbol": "prom",
-      "name": "Prom",
-      "price_usd": 2.08,
-      "market_cap_usd": 38061775,
-      "volume_24h_usd": 20821794,
-      "change_24h_pct": -12.8,
-      "change_7d_pct": 6.7,
-      "signal_score": 45,
-      "signals": {
-        "liquidity": 36,
-        "momentum": 32,
-        "acceleration": 69
+        "liquidity": 68,
+        "momentum": 59,
+        "acceleration": 30
       },
       "risk_flags": []
     },
@@ -280,67 +318,33 @@
       "id": "maverick-protocol",
       "symbol": "mav",
       "name": "Maverick Protocol",
-      "price_usd": 0.00906771,
-      "market_cap_usd": 10636463,
-      "volume_24h_usd": 13193959,
-      "change_24h_pct": -5.2,
-      "change_7d_pct": 15.4,
-      "signal_score": 45,
+      "price_usd": 0.00919914,
+      "market_cap_usd": 10785879,
+      "volume_24h_usd": 17002778,
+      "change_24h_pct": -4.2,
+      "change_7d_pct": 16.2,
+      "signal_score": 48,
       "signals": {
-        "liquidity": 83,
-        "momentum": 13,
-        "acceleration": 37
+        "liquidity": 100,
+        "momentum": 11,
+        "acceleration": 33
       },
       "risk_flags": []
     },
     {
-      "id": "cookie",
-      "symbol": "cookie",
-      "name": "Cookie DAO",
-      "price_usd": 0.01251483,
-      "market_cap_usd": 9918730,
-      "volume_24h_usd": 16898216,
-      "change_24h_pct": 6.8,
-      "change_7d_pct": 60.5,
-      "signal_score": 44,
+      "id": "lisk",
+      "symbol": "lsk",
+      "name": "Lisk",
+      "price_usd": 0.084269,
+      "market_cap_usd": 19638637,
+      "volume_24h_usd": 14639132,
+      "change_24h_pct": 14.8,
+      "change_7d_pct": 22.7,
+      "signal_score": 48,
       "signals": {
-        "liquidity": 100,
-        "momentum": 17,
-        "acceleration": 9
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "epic-chain",
-      "symbol": "epic",
-      "name": "Epic Chain",
-      "price_usd": 0.378479,
-      "market_cap_usd": 12735020,
-      "volume_24h_usd": 22384086,
-      "change_24h_pct": -8.7,
-      "change_7d_pct": -63.4,
-      "signal_score": 43,
-      "signals": {
-        "liquidity": 100,
-        "momentum": 22,
-        "acceleration": 2
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "space-id",
-      "symbol": "id",
-      "name": "SPACE ID",
-      "price_usd": 0.02920011,
-      "market_cap_usd": 12581676,
-      "volume_24h_usd": 21183172,
-      "change_24h_pct": 3.8,
-      "change_7d_pct": 8.3,
-      "signal_score": 42,
-      "signals": {
-        "liquidity": 100,
-        "momentum": 10,
-        "acceleration": 13
+        "liquidity": 50,
+        "momentum": 37,
+        "acceleration": 58
       },
       "risk_flags": []
     },
@@ -348,86 +352,105 @@
       "id": "squid-3",
       "symbol": "quid",
       "name": "Squid",
-      "price_usd": 0.089148,
-      "market_cap_usd": 12772446,
-      "volume_24h_usd": 18063549,
-      "change_24h_pct": -6.2,
-      "change_7d_pct": -27.2,
-      "signal_score": 42,
+      "price_usd": 0.084109,
+      "market_cap_usd": 12057312,
+      "volume_24h_usd": 14453925,
+      "change_24h_pct": -10.6,
+      "change_7d_pct": -22.1,
+      "signal_score": 48,
       "signals": {
-        "liquidity": 94,
-        "momentum": 16,
-        "acceleration": 12
+        "liquidity": 80,
+        "momentum": 27,
+        "acceleration": 37
       },
       "risk_flags": []
     },
     {
-      "id": "the-toad-pepe",
-      "symbol": "toad",
-      "name": "The Toad Pepe",
-      "price_usd": 0.01367443,
-      "market_cap_usd": 13135072,
-      "volume_24h_usd": 13931729,
-      "change_24h_pct": -13,
-      "change_7d_pct": 0,
-      "signal_score": 41,
+      "id": "ravencoin",
+      "symbol": "rvn",
+      "name": "Ravencoin",
+      "price_usd": 0.00276522,
+      "market_cap_usd": 45367309,
+      "volume_24h_usd": 9848729,
+      "change_24h_pct": -19.8,
+      "change_7d_pct": -20.5,
+      "signal_score": 48,
       "signals": {
-        "liquidity": 71,
-        "momentum": 33,
-        "acceleration": 16
+        "liquidity": 14,
+        "momentum": 50,
+        "acceleration": 84
       },
       "risk_flags": []
     },
     {
-      "id": "ethgas-2",
-      "symbol": "gwei",
-      "name": "ETHGas",
-      "price_usd": 0.0235367,
-      "market_cap_usd": 49429607,
-      "volume_24h_usd": 11568421,
-      "change_24h_pct": -12,
-      "change_7d_pct": 32.6,
-      "signal_score": 41,
+      "id": "cookie",
+      "symbol": "cookie",
+      "name": "Cookie DAO",
+      "price_usd": 0.01214645,
+      "market_cap_usd": 9664915,
+      "volume_24h_usd": 20984908,
+      "change_24h_pct": 1.6,
+      "change_7d_pct": 56.8,
+      "signal_score": 46,
       "signals": {
-        "liquidity": 16,
-        "momentum": 30,
-        "acceleration": 83
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "lagrange",
-      "symbol": "la",
-      "name": "Lagrange",
-      "price_usd": 0.051363,
-      "market_cap_usd": 9915684,
-      "volume_24h_usd": 11020737,
-      "change_24h_pct": -4.8,
-      "change_7d_pct": 12.8,
-      "signal_score": 40,
-      "signals": {
-        "liquidity": 74,
-        "momentum": 12,
+        "liquidity": 100,
+        "momentum": 4,
         "acceleration": 33
       },
       "risk_flags": []
     },
     {
-      "id": "infinex-2",
-      "symbol": "inx",
-      "name": "Infinex",
-      "price_usd": 0.00770346,
-      "market_cap_usd": 15301388,
-      "volume_24h_usd": 10401603,
-      "change_24h_pct": -10.5,
-      "change_7d_pct": -4.3,
-      "signal_score": 40,
+      "id": "superrare",
+      "symbol": "rare",
+      "name": "SuperRare",
+      "price_usd": 0.01230062,
+      "market_cap_usd": 10101369,
+      "volume_24h_usd": 10465141,
+      "change_24h_pct": -9,
+      "change_7d_pct": 4.1,
+      "signal_score": 46,
       "signals": {
-        "liquidity": 45,
-        "momentum": 26,
-        "acceleration": 49
+        "liquidity": 69,
+        "momentum": 23,
+        "acceleration": 48
       },
       "risk_flags": []
+    },
+    {
+      "id": "space-id",
+      "symbol": "id",
+      "name": "SPACE ID",
+      "price_usd": 0.02809588,
+      "market_cap_usd": 12099139,
+      "volume_24h_usd": 23031669,
+      "change_24h_pct": 4.4,
+      "change_7d_pct": 4.6,
+      "signal_score": 44,
+      "signals": {
+        "liquidity": 100,
+        "momentum": 11,
+        "acceleration": 19
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "xst",
+      "symbol": "xst",
+      "name": "XST",
+      "price_usd": 0.04231486,
+      "market_cap_usd": 0,
+      "volume_24h_usd": 9958241,
+      "change_24h_pct": -12.4,
+      "change_7d_pct": 236,
+      "signal_score": 41,
+      "signals": {
+        "liquidity": 0,
+        "momentum": 31,
+        "acceleration": 100
+      },
+      "risk_flags": [
+        "market_cap_muito_baixo"
+      ]
     },
     {
       "id": "matic-network",
@@ -449,38 +472,53 @@
       ]
     },
     {
-      "id": "uraniumx",
-      "symbol": "urx",
-      "name": "UraniumX",
-      "price_usd": 0.775621,
-      "market_cap_usd": 0,
-      "volume_24h_usd": 3.78,
-      "change_24h_pct": -16.2,
-      "change_7d_pct": 6.7,
-      "signal_score": 40,
+      "id": "lorenzo-protocol",
+      "symbol": "bank",
+      "name": "Lorenzo Protocol",
+      "price_usd": 0.03505803,
+      "market_cap_usd": 14909170,
+      "volume_24h_usd": 16720292,
+      "change_24h_pct": -8.6,
+      "change_7d_pct": -33.8,
+      "signal_score": 39,
       "signals": {
-        "liquidity": 0,
-        "momentum": 41,
-        "acceleration": 86
+        "liquidity": 75,
+        "momentum": 22,
+        "acceleration": 19
       },
-      "risk_flags": [
-        "market_cap_muito_baixo"
-      ]
+      "risk_flags": []
     },
     {
-      "id": "lisk",
-      "symbol": "lsk",
-      "name": "Lisk",
-      "price_usd": 0.085925,
-      "market_cap_usd": 20010415,
-      "volume_24h_usd": 11392859,
-      "change_24h_pct": 12,
-      "change_7d_pct": 20.5,
-      "signal_score": 37,
+      "id": "geodnet",
+      "symbol": "geod",
+      "name": "Geodnet",
+      "price_usd": 0.195773,
+      "market_cap_usd": 89255627,
+      "volume_24h_usd": 15477577,
+      "change_24h_pct": -14.2,
+      "change_7d_pct": 3,
+      "signal_score": 38,
       "signals": {
-        "liquidity": 38,
-        "momentum": 30,
-        "acceleration": 45
+        "liquidity": 12,
+        "momentum": 36,
+        "acceleration": 73
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "lagrange",
+      "symbol": "la",
+      "name": "Lagrange",
+      "price_usd": 0.051236,
+      "market_cap_usd": 9884943,
+      "volume_24h_usd": 10836176,
+      "change_24h_pct": -3.9,
+      "change_7d_pct": 14,
+      "signal_score": 38,
+      "signals": {
+        "liquidity": 73,
+        "momentum": 10,
+        "acceleration": 30
       },
       "risk_flags": []
     },
@@ -488,109 +526,69 @@
       "id": "invesco-qqq-trust-bstocks-tokenized-stock",
       "symbol": "qqqb",
       "name": "Invesco QQQ Trust (bStocks Tokenized Stock)",
-      "price_usd": 719.15,
-      "market_cap_usd": 1338557,
-      "volume_24h_usd": 14081600,
-      "change_24h_pct": 0,
-      "change_7d_pct": -0.4,
-      "signal_score": 35,
+      "price_usd": 719.56,
+      "market_cap_usd": 1339201,
+      "volume_24h_usd": 13876804,
+      "change_24h_pct": -0.3,
+      "change_7d_pct": -0.5,
+      "signal_score": 36,
       "signals": {
         "liquidity": 100,
-        "momentum": 0,
-        "acceleration": 0
+        "momentum": 1,
+        "acceleration": 1
       },
       "risk_flags": []
     },
     {
-      "id": "openledger-2",
-      "symbol": "open",
-      "name": "OpenLedger",
-      "price_usd": 0.21277,
-      "market_cap_usd": 45837001,
-      "volume_24h_usd": 10778123,
-      "change_24h_pct": 12.8,
-      "change_7d_pct": 9.2,
-      "signal_score": 34,
-      "signals": {
-        "liquidity": 16,
-        "momentum": 32,
-        "acceleration": 57
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "kdag",
-      "symbol": "kdag",
-      "name": "King DAG",
-      "price_usd": 0.00044891,
-      "market_cap_usd": 0,
-      "volume_24h_usd": 323.56,
-      "change_24h_pct": 14.1,
-      "change_7d_pct": 0.8,
-      "signal_score": 33,
-      "signals": {
-        "liquidity": 0,
-        "momentum": 35,
-        "acceleration": 70
-      },
-      "risk_flags": [
-        "market_cap_muito_baixo"
-      ]
-    },
-    {
-      "id": "lorenzo-protocol",
-      "symbol": "bank",
-      "name": "Lorenzo Protocol",
-      "price_usd": 0.03636034,
-      "market_cap_usd": 15447603,
-      "volume_24h_usd": 15852741,
-      "change_24h_pct": -6.2,
-      "change_7d_pct": -31.2,
-      "signal_score": 32,
-      "signals": {
-        "liquidity": 68,
-        "momentum": 16,
-        "acceleration": 9
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "globalchainz",
-      "symbol": "gcz",
-      "name": "GlobalChainZ",
-      "price_usd": 0.04577435,
-      "market_cap_usd": 0,
-      "volume_24h_usd": 53560,
-      "change_24h_pct": -13.4,
-      "change_7d_pct": -1.9,
+      "id": "giggle-fund",
+      "symbol": "giggle",
+      "name": "Giggle Fund",
+      "price_usd": 35.59,
+      "market_cap_usd": 35614492,
+      "volume_24h_usd": 25631223,
+      "change_24h_pct": 7.1,
+      "change_7d_pct": 11.1,
       "signal_score": 31,
       "signals": {
-        "liquidity": 0,
-        "momentum": 34,
-        "acceleration": 66
+        "liquidity": 48,
+        "momentum": 18,
+        "acceleration": 28
       },
-      "risk_flags": [
-        "market_cap_muito_baixo"
-      ]
+      "risk_flags": []
     },
     {
-      "id": "hex",
-      "symbol": "hex",
-      "name": "HEX",
-      "price_usd": 0.00160472,
-      "market_cap_usd": 0,
-      "volume_24h_usd": 424633,
-      "change_24h_pct": -9,
-      "change_7d_pct": 44.8,
+      "id": "audius",
+      "symbol": "audio",
+      "name": "Audius",
+      "price_usd": 0.01228078,
+      "market_cap_usd": 17759616,
+      "volume_24h_usd": 19722419,
+      "change_24h_pct": -1.8,
+      "change_7d_pct": 1.6,
       "signal_score": 31,
       "signals": {
-        "liquidity": 0,
-        "momentum": 23,
-        "acceleration": 77
+        "liquidity": 74,
+        "momentum": 5,
+        "acceleration": 10
       },
-      "risk_flags": [
-        "market_cap_muito_baixo"
-      ]
+      "risk_flags": []
+    },
+    {
+      "id": "efficientfrontier",
+      "symbol": "sn53",
+      "name": "EfficientFrontier",
+      "price_usd": 6.85,
+      "market_cap_usd": 35493506,
+      "volume_24h_usd": 11311106,
+      "change_24h_pct": 10.9,
+      "change_7d_pct": 13,
+      "signal_score": 31,
+      "signals": {
+        "liquidity": 21,
+        "momentum": 27,
+        "acceleration": 45
+      },
+      "risk_flags": []
     }
   ]
 }
