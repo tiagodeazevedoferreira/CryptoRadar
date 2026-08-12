@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-12T20:40:13.369Z",
+  "generated_at": "2026-08-12T21:37:14.361Z",
   "disclaimer": "Watchlist heuristica baseada em sinais publicos (volume, momentum). Nao e recomendacao de investimento. Moedas com esse perfil tem alto risco, incluindo pump-and-dump.",
   "trending_now": [
     {
       "id": "xmaquina",
       "symbol": "DEUS",
       "name": "XMAQUINA",
-      "market_cap_rank": 837
+      "market_cap_rank": 846
+    },
+    {
+      "id": "virtual-protocol",
+      "symbol": "VIRTUAL",
+      "name": "Virtuals Protocol",
+      "market_cap_rank": 108
     },
     {
       "id": "thinking-cat",
       "symbol": "HMM",
       "name": "Thinking Cat",
-      "market_cap_rank": 744
-    },
-    {
-      "id": "pudgy-penguins",
-      "symbol": "PENGU",
-      "name": "Pudgy Penguins",
-      "market_cap_rank": 106
+      "market_cap_rank": 784
     },
     {
       "id": "hyperliquid",
@@ -27,22 +27,28 @@
       "market_cap_rank": 10
     },
     {
+      "id": "cash-cat",
+      "symbol": "CASHCAT",
+      "name": "Cash Cat",
+      "market_cap_rank": 196
+    },
+    {
+      "id": "ethereum",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "market_cap_rank": 2
+    },
+    {
+      "id": "chainlink",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "market_cap_rank": 18
+    },
+    {
       "id": "bitcoin",
       "symbol": "BTC",
       "name": "Bitcoin",
       "market_cap_rank": 1
-    },
-    {
-      "id": "ripple",
-      "symbol": "XRP",
-      "name": "XRP",
-      "market_cap_rank": 6
-    },
-    {
-      "id": "bitway",
-      "symbol": "BTW",
-      "name": "Bitway",
-      "market_cap_rank": 85
     },
     {
       "id": "solana",
@@ -51,16 +57,10 @@
       "market_cap_rank": 7
     },
     {
-      "id": "avalanche-2",
-      "symbol": "AVAX",
-      "name": "Avalanche",
-      "market_cap_rank": 32
-    },
-    {
-      "id": "audiera",
-      "symbol": "BEAT",
-      "name": "Audiera",
-      "market_cap_rank": 110
+      "id": "uniswap",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "market_cap_rank": 37
     }
   ],
   "watchlist": [
@@ -68,32 +68,15 @@
       "id": "alon",
       "symbol": "alon",
       "name": "Alon",
-      "price_usd": 0.00478134,
-      "market_cap_usd": 4774601,
-      "volume_24h_usd": 17788652,
-      "change_24h_pct": -35,
-      "change_7d_pct": 211.1,
-      "signal_score": 96,
+      "price_usd": 0.00493685,
+      "market_cap_usd": 4926980,
+      "volume_24h_usd": 16878224,
+      "change_24h_pct": -48.8,
+      "change_7d_pct": 253.8,
+      "signal_score": 100,
       "signals": {
         "liquidity": 100,
-        "momentum": 88,
-        "acceleration": 100
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "nebius-bstocks-tokenized-stock",
-      "symbol": "nbisb",
-      "name": "Nebius (bStocks Tokenized Stock)",
-      "price_usd": 254.96,
-      "market_cap_usd": 14190119,
-      "volume_24h_usd": 11654896,
-      "change_24h_pct": 36.2,
-      "change_7d_pct": 15.7,
-      "signal_score": 81,
-      "signals": {
-        "liquidity": 55,
-        "momentum": 91,
+        "momentum": 100,
         "acceleration": 100
       },
       "risk_flags": []
@@ -102,16 +85,33 @@
       "id": "the-toad-pepe",
       "symbol": "toad",
       "name": "The Toad Pepe",
-      "price_usd": 0.00942264,
-      "market_cap_usd": 9008993,
-      "volume_24h_usd": 12240644,
-      "change_24h_pct": -34.2,
+      "price_usd": 0.01017393,
+      "market_cap_usd": 9765176,
+      "volume_24h_usd": 13636023,
+      "change_24h_pct": -41.1,
       "change_7d_pct": 0,
-      "signal_score": 74,
+      "signal_score": 83,
       "signals": {
-        "liquidity": 91,
-        "momentum": 86,
-        "acceleration": 43
+        "liquidity": 93,
+        "momentum": 100,
+        "acceleration": 50
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "nebius-bstocks-tokenized-stock",
+      "symbol": "nbisb",
+      "name": "Nebius (bStocks Tokenized Stock)",
+      "price_usd": 252.72,
+      "market_cap_usd": 14082572,
+      "volume_24h_usd": 11980232,
+      "change_24h_pct": 30.9,
+      "change_7d_pct": 15.4,
+      "signal_score": 77,
+      "signals": {
+        "liquidity": 57,
+        "momentum": 77,
+        "acceleration": 100
       },
       "risk_flags": []
     },
@@ -136,16 +136,16 @@
       "id": "radicle",
       "symbol": "rad",
       "name": "Radworks",
-      "price_usd": 0.235893,
-      "market_cap_usd": 13936468,
-      "volume_24h_usd": 14787529,
-      "change_24h_pct": -17.6,
-      "change_7d_pct": 14,
-      "signal_score": 70,
+      "price_usd": 0.237031,
+      "market_cap_usd": 13974223,
+      "volume_24h_usd": 14316345,
+      "change_24h_pct": -16.9,
+      "change_7d_pct": 13.7,
+      "signal_score": 67,
       "signals": {
-        "liquidity": 71,
-        "momentum": 44,
-        "acceleration": 98
+        "liquidity": 68,
+        "momentum": 42,
+        "acceleration": 94
       },
       "risk_flags": []
     },
@@ -153,37 +153,18 @@
       "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
       "symbol": "korub",
       "name": "South Korea Bull 3X ETF (bStocks Tokenized Stock)",
-      "price_usd": 20.32,
-      "market_cap_usd": 7474597,
-      "volume_24h_usd": 10549743,
-      "change_24h_pct": 16.3,
-      "change_7d_pct": 6.5,
-      "signal_score": 70,
+      "price_usd": 20.33,
+      "market_cap_usd": 7474590,
+      "volume_24h_usd": 10570934,
+      "change_24h_pct": 15.3,
+      "change_7d_pct": 10.9,
+      "signal_score": 67,
       "signals": {
         "liquidity": 94,
-        "momentum": 41,
-        "acceleration": 77
+        "momentum": 38,
+        "acceleration": 69
       },
       "risk_flags": []
-    },
-    {
-      "id": "vindax-coin",
-      "symbol": "vd",
-      "name": "VinDax Coin",
-      "price_usd": 0.01199544,
-      "market_cap_usd": 0,
-      "volume_24h_usd": 776.29,
-      "change_24h_pct": 45.7,
-      "change_7d_pct": 10.2,
-      "signal_score": 65,
-      "signals": {
-        "liquidity": 0,
-        "momentum": 100,
-        "acceleration": 100
-      },
-      "risk_flags": [
-        "market_cap_muito_baixo"
-      ]
     },
     {
       "id": "storex",
@@ -205,18 +186,52 @@
       ]
     },
     {
+      "id": "test-3",
+      "symbol": "tst",
+      "name": "Test",
+      "price_usd": 0.01424619,
+      "market_cap_usd": 13366005,
+      "volume_24h_usd": 11637891,
+      "change_24h_pct": -13.4,
+      "change_7d_pct": 41.6,
+      "signal_score": 61,
+      "signals": {
+        "liquidity": 58,
+        "momentum": 34,
+        "acceleration": 97
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "bitlayer-bitvm",
+      "symbol": "btr",
+      "name": "Bitlayer",
+      "price_usd": 0.02964302,
+      "market_cap_usd": 7770886,
+      "volume_24h_usd": 9965330,
+      "change_24h_pct": -7.3,
+      "change_7d_pct": 45,
+      "signal_score": 57,
+      "signals": {
+        "liquidity": 85,
+        "momentum": 18,
+        "acceleration": 69
+      },
+      "risk_flags": []
+    },
+    {
       "id": "dacxi",
       "symbol": "dxi",
       "name": "Dacxi",
-      "price_usd": 0.00114101,
+      "price_usd": 0.00108302,
       "market_cap_usd": 0,
-      "volume_24h_usd": 611165,
-      "change_24h_pct": 35.8,
-      "change_7d_pct": 38.5,
-      "signal_score": 61,
+      "volume_24h_usd": 570406,
+      "change_24h_pct": 31.4,
+      "change_7d_pct": 31.8,
+      "signal_score": 57,
       "signals": {
         "liquidity": 0,
-        "momentum": 89,
+        "momentum": 78,
         "acceleration": 100
       },
       "risk_flags": [
@@ -224,29 +239,12 @@
       ]
     },
     {
-      "id": "test-3",
-      "symbol": "tst",
-      "name": "Test",
-      "price_usd": 0.01429344,
-      "market_cap_usd": 13402918,
-      "volume_24h_usd": 13384691,
-      "change_24h_pct": -11.8,
-      "change_7d_pct": 41.2,
-      "signal_score": 60,
-      "signals": {
-        "liquidity": 67,
-        "momentum": 30,
-        "acceleration": 88
-      },
-      "risk_flags": []
-    },
-    {
       "id": "auditchain",
       "symbol": "audt",
       "name": "Auditchain",
-      "price_usd": 0.00597429,
+      "price_usd": 0.00597405,
       "market_cap_usd": 0,
-      "volume_24h_usd": 1113.72,
+      "volume_24h_usd": 1113.67,
       "change_24h_pct": 29.6,
       "change_7d_pct": -64.4,
       "signal_score": 56,
@@ -279,14 +277,31 @@
       ]
     },
     {
+      "id": "heima",
+      "symbol": "hei",
+      "name": "Heima",
+      "price_usd": 0.132627,
+      "market_cap_usd": 10797150,
+      "volume_24h_usd": 16551874,
+      "change_24h_pct": -12.3,
+      "change_7d_pct": -50.1,
+      "signal_score": 53,
+      "signals": {
+        "liquidity": 100,
+        "momentum": 31,
+        "acceleration": 26
+      },
+      "risk_flags": []
+    },
+    {
       "id": "caica-coin",
       "symbol": "cicc",
       "name": "CAICA Coin",
-      "price_usd": 0.00251091,
+      "price_usd": 0.00251137,
       "market_cap_usd": 0,
       "volume_24h_usd": 23.73,
       "change_24h_pct": -23,
-      "change_7d_pct": 31.8,
+      "change_7d_pct": 13.2,
       "signal_score": 50,
       "signals": {
         "liquidity": 0,
@@ -298,27 +313,29 @@
       ]
     },
     {
-      "id": "stonkbroker",
-      "symbol": "stonkbroker",
-      "name": "StonkBroker",
-      "price_usd": 0.03035711,
-      "market_cap_usd": 47802036,
-      "volume_24h_usd": 11055995,
-      "change_24h_pct": -14.7,
-      "change_7d_pct": 104.5,
+      "id": "maya-preferred-mprd",
+      "symbol": "mprd",
+      "name": "Maya Preferred   (MPRD)",
+      "price_usd": 532543,
+      "market_cap_usd": 0,
+      "volume_24h_usd": 9321844,
+      "change_24h_pct": 35.4,
+      "change_7d_pct": 168.1,
       "signal_score": 48,
       "signals": {
-        "liquidity": 15,
-        "momentum": 37,
-        "acceleration": 100
+        "liquidity": 0,
+        "momentum": 89,
+        "acceleration": 57
       },
-      "risk_flags": []
+      "risk_flags": [
+        "market_cap_muito_baixo"
+      ]
     },
     {
       "id": "alibabacoin",
       "symbol": "abbc",
       "name": "ABBC",
-      "price_usd": 0.00375874,
+      "price_usd": 0.0037586,
       "market_cap_usd": 0,
       "volume_24h_usd": 103.62,
       "change_24h_pct": 22,
@@ -334,53 +351,53 @@
       ]
     },
     {
-      "id": "banana-for-scale-2",
-      "symbol": "bananas31",
-      "name": "Banana For Scale",
-      "price_usd": 0.00835168,
-      "market_cap_usd": 83506987,
-      "volume_24h_usd": 12029494,
-      "change_24h_pct": -16.2,
-      "change_7d_pct": 17.8,
-      "signal_score": 46,
-      "signals": {
-        "liquidity": 10,
-        "momentum": 41,
-        "acceleration": 94
-      },
-      "risk_flags": []
-    },
-    {
       "id": "endurance",
       "symbol": "ace",
       "name": "Fusionist",
-      "price_usd": 0.109368,
-      "market_cap_usd": 11770680,
-      "volume_24h_usd": 20962506,
-      "change_24h_pct": 3.9,
-      "change_7d_pct": 57.6,
-      "signal_score": 45,
+      "price_usd": 0.107998,
+      "market_cap_usd": 11623088,
+      "volume_24h_usd": 20737361,
+      "change_24h_pct": 3.2,
+      "change_7d_pct": 59.1,
+      "signal_score": 46,
       "signals": {
         "liquidity": 100,
-        "momentum": 10,
-        "acceleration": 22
+        "momentum": 8,
+        "acceleration": 26
       },
       "risk_flags": []
     },
     {
-      "id": "heima",
-      "symbol": "hei",
-      "name": "Heima",
-      "price_usd": 0.131629,
-      "market_cap_usd": 10726015,
-      "volume_24h_usd": 16459540,
-      "change_24h_pct": -9.2,
-      "change_7d_pct": -53.9,
-      "signal_score": 45,
+      "id": "lorenzo-protocol",
+      "symbol": "bank",
+      "name": "Lorenzo Protocol",
+      "price_usd": 0.03794416,
+      "market_cap_usd": 16101912,
+      "volume_24h_usd": 19152292,
+      "change_24h_pct": 5.6,
+      "change_7d_pct": -11.6,
+      "signal_score": 44,
       "signals": {
-        "liquidity": 100,
-        "momentum": 23,
-        "acceleration": 7
+        "liquidity": 79,
+        "momentum": 14,
+        "acceleration": 36
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "stonkbroker",
+      "symbol": "stonkbroker",
+      "name": "StonkBroker",
+      "price_usd": 0.02851715,
+      "market_cap_usd": 44840901,
+      "volume_24h_usd": 10474960,
+      "change_24h_pct": -10,
+      "change_7d_pct": 94.1,
+      "signal_score": 44,
+      "signals": {
+        "liquidity": 16,
+        "momentum": 25,
+        "acceleration": 100
       },
       "risk_flags": []
     },
@@ -388,15 +405,15 @@
       "id": "unification",
       "symbol": "fund",
       "name": "Unification",
-      "price_usd": 0.00482169,
+      "price_usd": 0.00480318,
       "market_cap_usd": 0,
-      "volume_24h_usd": 116.03,
-      "change_24h_pct": 15,
-      "change_7d_pct": -46.1,
+      "volume_24h_usd": 115.58,
+      "change_24h_pct": 14.4,
+      "change_7d_pct": -46,
       "signal_score": 43,
       "signals": {
         "liquidity": 0,
-        "momentum": 38,
+        "momentum": 36,
         "acceleration": 100
       },
       "risk_flags": [
@@ -407,14 +424,14 @@
       "id": "moonriver",
       "symbol": "movr",
       "name": "Moonriver",
-      "price_usd": 0.852304,
-      "market_cap_usd": 10708792,
-      "volume_24h_usd": 10029677,
-      "change_24h_pct": -10.5,
-      "change_7d_pct": -27.4,
+      "price_usd": 0.840316,
+      "market_cap_usd": 10554584,
+      "volume_24h_usd": 10085611,
+      "change_24h_pct": -10.4,
+      "change_7d_pct": -26.8,
       "signal_score": 41,
       "signals": {
-        "liquidity": 62,
+        "liquidity": 64,
         "momentum": 26,
         "acceleration": 33
       },
@@ -443,32 +460,15 @@
       "id": "space-id",
       "symbol": "id",
       "name": "SPACE ID",
-      "price_usd": 0.02835512,
-      "market_cap_usd": 12218655,
-      "volume_24h_usd": 16528396,
-      "change_24h_pct": -2.6,
-      "change_7d_pct": 4.7,
+      "price_usd": 0.02806165,
+      "market_cap_usd": 12075780,
+      "volume_24h_usd": 16283622,
+      "change_24h_pct": -2.7,
+      "change_7d_pct": 4.6,
       "signal_score": 39,
       "signals": {
         "liquidity": 90,
         "momentum": 7,
-        "acceleration": 16
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "lorenzo-protocol",
-      "symbol": "bank",
-      "name": "Lorenzo Protocol",
-      "price_usd": 0.03798656,
-      "market_cap_usd": 16161087,
-      "volume_24h_usd": 21947691,
-      "change_24h_pct": 1,
-      "change_7d_pct": -16.3,
-      "signal_score": 38,
-      "signals": {
-        "liquidity": 91,
-        "momentum": 3,
         "acceleration": 17
       },
       "risk_flags": []
@@ -477,50 +477,33 @@
       "id": "epic-chain",
       "symbol": "epic",
       "name": "Epic Chain",
-      "price_usd": 0.356244,
-      "market_cap_usd": 11962153,
-      "volume_24h_usd": 15284452,
-      "change_24h_pct": -9.1,
-      "change_7d_pct": -62.3,
-      "signal_score": 38,
+      "price_usd": 0.347988,
+      "market_cap_usd": 11696983,
+      "volume_24h_usd": 14362857,
+      "change_24h_pct": -4.7,
+      "change_7d_pct": -62.6,
+      "signal_score": 39,
       "signals": {
-        "liquidity": 85,
-        "momentum": 23,
-        "acceleration": 1
+        "liquidity": 82,
+        "momentum": 12,
+        "acceleration": 21
       },
       "risk_flags": []
     },
     {
-      "id": "invesco-qqq-trust-bstocks-tokenized-stock",
-      "symbol": "qqqb",
-      "name": "Invesco QQQ Trust (bStocks Tokenized Stock)",
-      "price_usd": 722.22,
-      "market_cap_usd": 1344264,
-      "volume_24h_usd": 10623998,
-      "change_24h_pct": 0.8,
-      "change_7d_pct": 0.4,
-      "signal_score": 37,
+      "id": "aeon-3",
+      "symbol": "aeon",
+      "name": "AEON",
+      "price_usd": 0.054469,
+      "market_cap_usd": 10243207,
+      "volume_24h_usd": 11943110,
+      "change_24h_pct": 4.3,
+      "change_7d_pct": -5.6,
+      "signal_score": 39,
       "signals": {
-        "liquidity": 100,
-        "momentum": 2,
-        "acceleration": 4
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "semicon-bull-3x-etf-bstocks-tokenized-stock",
-      "symbol": "soxlb",
-      "name": "Semicon Bull 3X ETF (bStocks Tokenized Stock)",
-      "price_usd": 142.06,
-      "market_cap_usd": 18255583,
-      "volume_24h_usd": 12146619,
-      "change_24h_pct": 8.5,
-      "change_7d_pct": 4.4,
-      "signal_score": 35,
-      "signals": {
-        "liquidity": 44,
-        "momentum": 21,
-        "acceleration": 39
+        "liquidity": 78,
+        "momentum": 11,
+        "acceleration": 26
       },
       "risk_flags": []
     },
@@ -528,16 +511,52 @@
       "id": "terra-luna-2",
       "symbol": "luna",
       "name": "Terra",
-      "price_usd": 0.04312763,
-      "market_cap_usd": 30618248,
-      "volume_24h_usd": 14694225,
-      "change_24h_pct": -9.2,
-      "change_7d_pct": 5.2,
+      "price_usd": 0.04294151,
+      "market_cap_usd": 30507738,
+      "volume_24h_usd": 14235810,
+      "change_24h_pct": -10.2,
+      "change_7d_pct": 5,
+      "signal_score": 36,
+      "signals": {
+        "liquidity": 31,
+        "momentum": 26,
+        "acceleration": 55
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "bitcoin-atom",
+      "symbol": "bca",
+      "name": "Bitcoin Atom",
+      "price_usd": 0.03373349,
+      "market_cap_usd": 0,
+      "volume_24h_usd": 45.24,
+      "change_24h_pct": -16.3,
+      "change_7d_pct": -19.8,
       "signal_score": 34,
       "signals": {
-        "liquidity": 32,
+        "liquidity": 0,
+        "momentum": 41,
+        "acceleration": 67
+      },
+      "risk_flags": [
+        "market_cap_muito_baixo"
+      ]
+    },
+    {
+      "id": "giggle-fund",
+      "symbol": "giggle",
+      "name": "Giggle Fund",
+      "price_usd": 34.99,
+      "market_cap_usd": 35085647,
+      "volume_24h_usd": 13669677,
+      "change_24h_pct": -9.1,
+      "change_7d_pct": 1.9,
+      "signal_score": 31,
+      "signals": {
+        "liquidity": 26,
         "momentum": 23,
-        "acceleration": 50
+        "acceleration": 47
       },
       "risk_flags": []
     },
@@ -561,36 +580,19 @@
       ]
     },
     {
-      "id": "spy-bstocks-tokenized-stock",
-      "symbol": "spyb",
-      "name": "SPY (bStocks Tokenized Stock)",
-      "price_usd": 773.17,
-      "market_cap_usd": 16899464,
-      "volume_24h_usd": 20202631,
-      "change_24h_pct": -0.1,
-      "change_7d_pct": -0.2,
-      "signal_score": 28,
+      "id": "semicon-bull-3x-etf-bstocks-tokenized-stock",
+      "symbol": "soxlb",
+      "name": "Semicon Bull 3X ETF (bStocks Tokenized Stock)",
+      "price_usd": 142.49,
+      "market_cap_usd": 18310189,
+      "volume_24h_usd": 12080046,
+      "change_24h_pct": 6.6,
+      "change_7d_pct": 8.4,
+      "signal_score": 29,
       "signals": {
-        "liquidity": 80,
-        "momentum": 0,
-        "acceleration": 0
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "spacex-xstocks",
-      "symbol": "spcxx",
-      "name": "SpaceX xStock",
-      "price_usd": 146.19,
-      "market_cap_usd": 37830042,
-      "volume_24h_usd": 12854761,
-      "change_24h_pct": 11.3,
-      "change_7d_pct": 34.6,
-      "signal_score": 27,
-      "signals": {
-        "liquidity": 23,
-        "momentum": 28,
-        "acceleration": 32
+        "liquidity": 44,
+        "momentum": 16,
+        "acceleration": 27
       },
       "risk_flags": []
     }
