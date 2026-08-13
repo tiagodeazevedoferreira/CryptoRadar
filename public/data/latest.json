@@ -1,42 +1,12 @@
 {
-  "generated_at": "2026-08-13T01:16:12.283Z",
+  "generated_at": "2026-08-13T04:02:43.598Z",
   "disclaimer": "Watchlist heuristica baseada em sinais publicos (volume, momentum). Nao e recomendacao de investimento. Moedas com esse perfil tem alto risco, incluindo pump-and-dump.",
   "trending_now": [
-    {
-      "id": "xmaquina",
-      "symbol": "DEUS",
-      "name": "XMAQUINA",
-      "market_cap_rank": 845
-    },
     {
       "id": "apriori",
       "symbol": "APR",
       "name": "aPriori",
-      "market_cap_rank": 208
-    },
-    {
-      "id": "pudgy-penguins",
-      "symbol": "PENGU",
-      "name": "Pudgy Penguins",
-      "market_cap_rank": 106
-    },
-    {
-      "id": "pons",
-      "symbol": "PONS",
-      "name": "Pons",
-      "market_cap_rank": 556
-    },
-    {
-      "id": "pump-fun",
-      "symbol": "PUMP",
-      "name": "Pump.fun",
-      "market_cap_rank": 64
-    },
-    {
-      "id": "lighter",
-      "symbol": "LIT",
-      "name": "Lighter",
-      "market_cap_rank": 88
+      "market_cap_rank": 222
     },
     {
       "id": "hyperliquid",
@@ -45,22 +15,52 @@
       "market_cap_rank": 10
     },
     {
-      "id": "stonkbroker",
-      "symbol": "STONKBROKER",
-      "name": "StonkBroker",
-      "market_cap_rank": 484
+      "id": "ripple",
+      "symbol": "XRP",
+      "name": "XRP",
+      "market_cap_rank": 6
     },
     {
-      "id": "thinking-cat",
-      "symbol": "HMM",
-      "name": "Thinking Cat",
-      "market_cap_rank": 703
+      "id": "pons",
+      "symbol": "PONS",
+      "name": "Pons",
+      "market_cap_rank": 545
     },
     {
-      "id": "curve-dao-token",
-      "symbol": "CRV",
-      "name": "Curve DAO",
-      "market_cap_rank": 104
+      "id": "bitcoin",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "market_cap_rank": 1
+    },
+    {
+      "id": "solana",
+      "symbol": "SOL",
+      "name": "Solana",
+      "market_cap_rank": 7
+    },
+    {
+      "id": "chainlink",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "market_cap_rank": 18
+    },
+    {
+      "id": "ethereum",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "market_cap_rank": 2
+    },
+    {
+      "id": "lighter",
+      "symbol": "LIT",
+      "name": "Lighter",
+      "market_cap_rank": 88
+    },
+    {
+      "id": "pump-fun",
+      "symbol": "PUMP",
+      "name": "Pump.fun",
+      "market_cap_rank": 64
     }
   ],
   "watchlist": [
@@ -68,16 +68,33 @@
       "id": "alon",
       "symbol": "alon",
       "name": "Alon",
-      "price_usd": 0.00436433,
-      "market_cap_usd": 4354018,
-      "volume_24h_usd": 12560400,
-      "change_24h_pct": -33.1,
-      "change_7d_pct": 218.2,
-      "signal_score": 94,
+      "price_usd": 0.0037856,
+      "market_cap_usd": 3776543,
+      "volume_24h_usd": 10678400,
+      "change_24h_pct": -29.5,
+      "change_7d_pct": 187.4,
+      "signal_score": 91,
       "signals": {
         "liquidity": 100,
-        "momentum": 83,
+        "momentum": 74,
         "acceleration": 100
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "nebius-bstocks-tokenized-stock",
+      "symbol": "nbisb",
+      "name": "Nebius (bStocks Tokenized Stock)",
+      "price_usd": 254.92,
+      "market_cap_usd": 9766125,
+      "volume_24h_usd": 12286380,
+      "change_24h_pct": 22.5,
+      "change_7d_pct": 18.3,
+      "signal_score": 79,
+      "signals": {
+        "liquidity": 84,
+        "momentum": 56,
+        "acceleration": 99
       },
       "risk_flags": []
     },
@@ -85,15 +102,15 @@
       "id": "the-toad-pepe",
       "symbol": "toad",
       "name": "The Toad Pepe",
-      "price_usd": 0.00955209,
-      "market_cap_usd": 9120425,
-      "volume_24h_usd": 12633864,
-      "change_24h_pct": -35.4,
+      "price_usd": 0.00950558,
+      "market_cap_usd": 9141452,
+      "volume_24h_usd": 12942209,
+      "change_24h_pct": -35.2,
       "change_7d_pct": 0,
       "signal_score": 77,
       "signals": {
-        "liquidity": 92,
-        "momentum": 89,
+        "liquidity": 94,
+        "momentum": 88,
         "acceleration": 44
       },
       "risk_flags": []
@@ -116,38 +133,57 @@
       "risk_flags": []
     },
     {
-      "id": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
-      "symbol": "korub",
-      "name": "South Korea Bull 3X ETF (bStocks Tokenized Stock)",
-      "price_usd": 20.86,
-      "market_cap_usd": 7772424,
-      "volume_24h_usd": 11794363,
-      "change_24h_pct": 16.3,
-      "change_7d_pct": 15.8,
-      "signal_score": 70,
+      "id": "bedrock-token",
+      "symbol": "br",
+      "name": "Bedrock",
+      "price_usd": 0.221607,
+      "market_cap_usd": 64729019,
+      "volume_24h_usd": 10906006,
+      "change_24h_pct": 73.5,
+      "change_7d_pct": 54.6,
+      "signal_score": 69,
       "signals": {
-        "liquidity": 100,
-        "momentum": 41,
-        "acceleration": 70
+        "liquidity": 11,
+        "momentum": 100,
+        "acceleration": 100
       },
       "risk_flags": []
     },
     {
-      "id": "nebius-bstocks-tokenized-stock",
-      "symbol": "nbisb",
-      "name": "Nebius (bStocks Tokenized Stock)",
-      "price_usd": 253.44,
-      "market_cap_usd": 14129556,
-      "volume_24h_usd": 12207823,
-      "change_24h_pct": 21.5,
-      "change_7d_pct": 17.7,
+      "id": "stonkbroker",
+      "symbol": "stonkbroker",
+      "name": "StonkBroker",
+      "price_usd": 0.02478986,
+      "market_cap_usd": 38981534,
+      "volume_24h_usd": 11652928,
+      "change_24h_pct": -33.8,
+      "change_7d_pct": 28.4,
       "signal_score": 67,
       "signals": {
-        "liquidity": 58,
-        "momentum": 54,
-        "acceleration": 95
+        "liquidity": 20,
+        "momentum": 85,
+        "acceleration": 100
       },
       "risk_flags": []
+    },
+    {
+      "id": "vindax-coin",
+      "symbol": "vd",
+      "name": "VinDax Coin",
+      "price_usd": 0.01576688,
+      "market_cap_usd": 0,
+      "volume_24h_usd": 673.18,
+      "change_24h_pct": 49.5,
+      "change_7d_pct": -4.4,
+      "signal_score": 65,
+      "signals": {
+        "liquidity": 0,
+        "momentum": 100,
+        "acceleration": 100
+      },
+      "risk_flags": [
+        "market_cap_muito_baixo"
+      ]
     },
     {
       "id": "storex",
@@ -169,35 +205,35 @@
       ]
     },
     {
-      "id": "stonkbroker",
-      "symbol": "stonkbroker",
-      "name": "StonkBroker",
-      "price_usd": 0.0267731,
-      "market_cap_usd": 41883617,
-      "volume_24h_usd": 12510499,
-      "change_24h_pct": -26.6,
-      "change_7d_pct": 67.2,
+      "id": "bubblemaps",
+      "symbol": "bmt",
+      "name": "Bubblemaps",
+      "price_usd": 0.01792764,
+      "market_cap_usd": 12868496,
+      "volume_24h_usd": 21184538,
+      "change_24h_pct": -6.4,
+      "change_7d_pct": 45.4,
       "signal_score": 60,
       "signals": {
-        "liquidity": 20,
-        "momentum": 67,
-        "acceleration": 100
+        "liquidity": 100,
+        "momentum": 16,
+        "acceleration": 64
       },
       "risk_flags": []
     },
     {
-      "id": "vindax-coin",
-      "symbol": "vd",
-      "name": "VinDax Coin",
-      "price_usd": 0.01309814,
+      "id": "dacxi",
+      "symbol": "dxi",
+      "name": "Dacxi",
+      "price_usd": 0.00105907,
       "market_cap_usd": 0,
-      "volume_24h_usd": 838.11,
-      "change_24h_pct": 28.5,
-      "change_7d_pct": -11.6,
-      "signal_score": 55,
+      "volume_24h_usd": 547949,
+      "change_24h_pct": 30.7,
+      "change_7d_pct": 31.1,
+      "signal_score": 57,
       "signals": {
         "liquidity": 0,
-        "momentum": 71,
+        "momentum": 77,
         "acceleration": 100
       },
       "risk_flags": [
@@ -224,54 +260,35 @@
       ]
     },
     {
-      "id": "test-3",
-      "symbol": "tst",
-      "name": "Test",
-      "price_usd": 0.01447835,
-      "market_cap_usd": 13641226,
-      "volume_24h_usd": 12420923,
-      "change_24h_pct": -9.6,
-      "change_7d_pct": 44,
+      "id": "lisk",
+      "symbol": "lsk",
+      "name": "Lisk",
+      "price_usd": 0.079061,
+      "market_cap_usd": 18484083,
+      "volume_24h_usd": 22018227,
+      "change_24h_pct": -9.9,
+      "change_7d_pct": 7.8,
       "signal_score": 53,
       "signals": {
-        "liquidity": 61,
-        "momentum": 24,
-        "acceleration": 79
+        "liquidity": 79,
+        "momentum": 25,
+        "acceleration": 55
       },
       "risk_flags": []
-    },
-    {
-      "id": "dacxi",
-      "symbol": "dxi",
-      "name": "Dacxi",
-      "price_usd": 0.00104109,
-      "market_cap_usd": 0,
-      "volume_24h_usd": 539321,
-      "change_24h_pct": 25.8,
-      "change_7d_pct": 26.1,
-      "signal_score": 53,
-      "signals": {
-        "liquidity": 0,
-        "momentum": 65,
-        "acceleration": 100
-      },
-      "risk_flags": [
-        "market_cap_muito_baixo"
-      ]
     },
     {
       "id": "auditchain",
       "symbol": "audt",
       "name": "Auditchain",
-      "price_usd": 0.00575465,
+      "price_usd": 0.00575461,
       "market_cap_usd": 0,
-      "volume_24h_usd": 1124.51,
-      "change_24h_pct": 24.8,
+      "volume_24h_usd": 1084.98,
+      "change_24h_pct": 25.2,
       "change_7d_pct": -65.7,
       "signal_score": 52,
       "signals": {
         "liquidity": 0,
-        "momentum": 62,
+        "momentum": 63,
         "acceleration": 100
       },
       "risk_flags": [
@@ -279,36 +296,19 @@
       ]
     },
     {
-      "id": "radicle",
-      "symbol": "rad",
-      "name": "Radworks",
-      "price_usd": 0.242904,
-      "market_cap_usd": 14346934,
-      "volume_24h_usd": 13190451,
-      "change_24h_pct": -8.4,
-      "change_7d_pct": 15.8,
-      "signal_score": 45,
-      "signals": {
-        "liquidity": 61,
-        "momentum": 21,
-        "acceleration": 53
-      },
-      "risk_flags": []
-    },
-    {
       "id": "endurance",
       "symbol": "ace",
       "name": "Fusionist",
-      "price_usd": 0.107978,
-      "market_cap_usd": 11610942,
-      "volume_24h_usd": 20735708,
-      "change_24h_pct": 4.6,
-      "change_7d_pct": 54.5,
-      "signal_score": 44,
+      "price_usd": 0.106573,
+      "market_cap_usd": 11471324,
+      "volume_24h_usd": 19857899,
+      "change_24h_pct": 1.3,
+      "change_7d_pct": 51.1,
+      "signal_score": 45,
       "signals": {
         "liquidity": 100,
-        "momentum": 12,
-        "acceleration": 16
+        "momentum": 3,
+        "acceleration": 30
       },
       "risk_flags": []
     },
@@ -316,69 +316,16 @@
       "id": "heima",
       "symbol": "hei",
       "name": "Heima",
-      "price_usd": 0.131123,
-      "market_cap_usd": 10678277,
-      "volume_24h_usd": 15569033,
-      "change_24h_pct": -2.6,
-      "change_7d_pct": -48.2,
-      "signal_score": 43,
+      "price_usd": 0.131107,
+      "market_cap_usd": 10681607,
+      "volume_24h_usd": 14193798,
+      "change_24h_pct": -2.8,
+      "change_7d_pct": -53.4,
+      "signal_score": 41,
       "signals": {
-        "liquidity": 97,
+        "liquidity": 89,
         "momentum": 7,
-        "acceleration": 21
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "bitlayer-bitvm",
-      "symbol": "btr",
-      "name": "Bitlayer",
-      "price_usd": 0.02927778,
-      "market_cap_usd": 7629479,
-      "volume_24h_usd": 12034770,
-      "change_24h_pct": 1.8,
-      "change_7d_pct": 43,
-      "signal_score": 43,
-      "signals": {
-        "liquidity": 100,
-        "momentum": 5,
-        "acceleration": 22
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "unification",
-      "symbol": "fund",
-      "name": "Unification",
-      "price_usd": 0.00480594,
-      "market_cap_usd": 0,
-      "volume_24h_usd": 115.65,
-      "change_24h_pct": 14,
-      "change_7d_pct": -46.2,
-      "signal_score": 42,
-      "signals": {
-        "liquidity": 0,
-        "momentum": 35,
-        "acceleration": 100
-      },
-      "risk_flags": [
-        "market_cap_muito_baixo"
-      ]
-    },
-    {
-      "id": "epic-chain",
-      "symbol": "epic",
-      "name": "Epic Chain",
-      "price_usd": 0.353895,
-      "market_cap_usd": 11902694,
-      "volume_24h_usd": 14595053,
-      "change_24h_pct": -3,
-      "change_7d_pct": -59.7,
-      "signal_score": 40,
-      "signals": {
-        "liquidity": 82,
-        "momentum": 8,
-        "acceleration": 28
+        "acceleration": 24
       },
       "risk_flags": []
     },
@@ -402,19 +349,19 @@
       ]
     },
     {
-      "id": "terra-luna-2",
-      "symbol": "luna",
-      "name": "Terra",
-      "price_usd": 0.04327737,
-      "market_cap_usd": 30720534,
-      "volume_24h_usd": 11315252,
-      "change_24h_pct": -12,
-      "change_7d_pct": 5.2,
+      "id": "epic-chain",
+      "symbol": "epic",
+      "name": "Epic Chain",
+      "price_usd": 0.35235,
+      "market_cap_usd": 11829635,
+      "volume_24h_usd": 13580081,
+      "change_24h_pct": -2.5,
+      "change_7d_pct": -60.4,
       "signal_score": 38,
       "signals": {
-        "liquidity": 25,
-        "momentum": 30,
-        "acceleration": 64
+        "liquidity": 77,
+        "momentum": 6,
+        "acceleration": 31
       },
       "risk_flags": []
     },
@@ -422,16 +369,33 @@
       "id": "alien-worlds",
       "symbol": "tlm",
       "name": "Alien Worlds",
-      "price_usd": 0.00158943,
-      "market_cap_usd": 11125007,
-      "volume_24h_usd": 10497240,
-      "change_24h_pct": 5.3,
-      "change_7d_pct": -5.2,
-      "signal_score": 36,
+      "price_usd": 0.00161277,
+      "market_cap_usd": 11293216,
+      "volume_24h_usd": 11125652,
+      "change_24h_pct": 5.9,
+      "change_7d_pct": -6,
+      "signal_score": 38,
       "signals": {
-        "liquidity": 63,
+        "liquidity": 66,
+        "momentum": 15,
+        "acceleration": 34
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "test-3",
+      "symbol": "tst",
+      "name": "Test",
+      "price_usd": 0.01427785,
+      "market_cap_usd": 13387945,
+      "volume_24h_usd": 10433576,
+      "change_24h_pct": -5.1,
+      "change_7d_pct": 38.2,
+      "signal_score": 38,
+      "signals": {
+        "liquidity": 52,
         "momentum": 13,
-        "acceleration": 30
+        "acceleration": 53
       },
       "risk_flags": []
     },
@@ -439,139 +403,88 @@
       "id": "invesco-qqq-trust-bstocks-tokenized-stock",
       "symbol": "qqqb",
       "name": "Invesco QQQ Trust (bStocks Tokenized Stock)",
-      "price_usd": 722.58,
-      "market_cap_usd": 1345149,
-      "volume_24h_usd": 10037020,
-      "change_24h_pct": 0.7,
-      "change_7d_pct": 0.9,
+      "price_usd": 723.84,
+      "market_cap_usd": 1347159,
+      "volume_24h_usd": 9771583,
+      "change_24h_pct": 0.5,
+      "change_7d_pct": 1,
       "signal_score": 36,
       "signals": {
         "liquidity": 100,
-        "momentum": 2,
-        "acceleration": 3
+        "momentum": 1,
+        "acceleration": 2
       },
       "risk_flags": []
+    },
+    {
+      "id": "hex",
+      "symbol": "hex",
+      "name": "HEX",
+      "price_usd": 0.00143022,
+      "market_cap_usd": 0,
+      "volume_24h_usd": 216584,
+      "change_24h_pct": -13.8,
+      "change_7d_pct": 17.1,
+      "signal_score": 36,
+      "signals": {
+        "liquidity": 0,
+        "momentum": 35,
+        "acceleration": 81
+      },
+      "risk_flags": [
+        "market_cap_muito_baixo"
+      ]
     },
     {
       "id": "bitcoin-atom",
       "symbol": "bca",
       "name": "Bitcoin Atom",
-      "price_usd": 0.03390631,
+      "price_usd": 0.03390609,
       "market_cap_usd": 0,
-      "volume_24h_usd": 46.2,
-      "change_24h_pct": -16.8,
-      "change_7d_pct": -20.3,
-      "signal_score": 36,
+      "volume_24h_usd": 45.8,
+      "change_24h_pct": -15.9,
+      "change_7d_pct": -19.4,
+      "signal_score": 34,
       "signals": {
         "liquidity": 0,
-        "momentum": 42,
-        "acceleration": 70
+        "momentum": 40,
+        "acceleration": 66
       },
       "risk_flags": [
         "market_cap_muito_baixo"
       ]
     },
     {
-      "id": "moonriver",
-      "symbol": "movr",
-      "name": "Moonriver",
-      "price_usd": 0.834578,
-      "market_cap_usd": 10487649,
-      "volume_24h_usd": 10102836,
-      "change_24h_pct": -7.9,
-      "change_7d_pct": -26.9,
-      "signal_score": 35,
-      "signals": {
-        "liquidity": 64,
-        "momentum": 20,
-        "acceleration": 20
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "nestree",
-      "symbol": "egg",
-      "name": "Nestree",
-      "price_usd": 0.00024222,
-      "market_cap_usd": 0,
-      "volume_24h_usd": 819658,
-      "change_24h_pct": 15.2,
-      "change_7d_pct": 6.1,
-      "signal_score": 35,
-      "signals": {
-        "liquidity": 0,
-        "momentum": 38,
-        "acceleration": 72
-      },
-      "risk_flags": [
-        "market_cap_muito_baixo"
-      ]
-    },
-    {
-      "id": "lisk",
-      "symbol": "lsk",
-      "name": "Lisk",
-      "price_usd": 0.084018,
-      "market_cap_usd": 19591911,
-      "volume_24h_usd": 25762435,
-      "change_24h_pct": 0.6,
-      "change_7d_pct": 12.1,
+      "id": "sk-hynix-bstocks-tokenized-stock",
+      "symbol": "skhyb",
+      "name": "SK Hynix (bStocks Tokenized Stock)",
+      "price_usd": 156.25,
+      "market_cap_usd": 22733675,
+      "volume_24h_usd": 17136260,
+      "change_24h_pct": 7.1,
+      "change_7d_pct": 8,
       "signal_score": 33,
       "signals": {
-        "liquidity": 88,
-        "momentum": 2,
-        "acceleration": 6
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "space-id",
-      "symbol": "id",
-      "name": "SPACE ID",
-      "price_usd": 0.02862465,
-      "market_cap_usd": 12322531,
-      "volume_24h_usd": 13740515,
-      "change_24h_pct": -2.4,
-      "change_7d_pct": 4.3,
-      "signal_score": 33,
-      "signals": {
-        "liquidity": 74,
-        "momentum": 6,
-        "acceleration": 15
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "cookie",
-      "symbol": "cookie",
-      "name": "Cookie DAO",
-      "price_usd": 0.01261867,
-      "market_cap_usd": 10016213,
-      "volume_24h_usd": 9770505,
-      "change_24h_pct": 2,
-      "change_7d_pct": 55.8,
-      "signal_score": 33,
-      "signals": {
-        "liquidity": 65,
-        "momentum": 5,
+        "liquidity": 50,
+        "momentum": 18,
         "acceleration": 30
       },
       "risk_flags": []
     },
     {
-      "id": "velvet",
-      "symbol": "velvet",
-      "name": "Velvet",
-      "price_usd": 0.64576,
-      "market_cap_usd": 273598581,
-      "volume_24h_usd": 22964019,
-      "change_24h_pct": 17.1,
-      "change_7d_pct": 56.5,
-      "signal_score": 30,
+      "id": "mubarak",
+      "symbol": "mubarak",
+      "name": "Mubarak",
+      "price_usd": 0.01850518,
+      "market_cap_usd": 18501167,
+      "volume_24h_usd": 13911769,
+      "change_24h_pct": 9.1,
+      "change_7d_pct": 35.6,
+      "signal_score": 32,
       "signals": {
-        "liquidity": 6,
-        "momentum": 43,
-        "acceleration": 45
+        "liquidity": 50,
+        "momentum": 23,
+        "acceleration": 20
       },
       "risk_flags": []
     },
@@ -579,16 +492,105 @@
       "id": "semicon-bull-3x-etf-bstocks-tokenized-stock",
       "symbol": "soxlb",
       "name": "Semicon Bull 3X ETF (bStocks Tokenized Stock)",
-      "price_usd": 143.83,
-      "market_cap_usd": 18554678,
-      "volume_24h_usd": 11789516,
-      "change_24h_pct": 7.5,
-      "change_7d_pct": 10.1,
+      "price_usd": 144.91,
+      "market_cap_usd": 13854901,
+      "volume_24h_usd": 11768950,
+      "change_24h_pct": 6.1,
+      "change_7d_pct": 10.5,
+      "signal_score": 32,
+      "signals": {
+        "liquidity": 57,
+        "momentum": 15,
+        "acceleration": 23
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "velvet",
+      "symbol": "velvet",
+      "name": "Velvet",
+      "price_usd": 0.670547,
+      "market_cap_usd": 284417841,
+      "volume_24h_usd": 25479415,
+      "change_24h_pct": 15.3,
+      "change_7d_pct": 40.3,
       "signal_score": 30,
       "signals": {
-        "liquidity": 42,
+        "liquidity": 6,
+        "momentum": 38,
+        "acceleration": 48
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "spy-bstocks-tokenized-stock",
+      "symbol": "spyb",
+      "name": "SPY (bStocks Tokenized Stock)",
+      "price_usd": 772.1,
+      "market_cap_usd": 16858644,
+      "volume_24h_usd": 21246087,
+      "change_24h_pct": 0.4,
+      "change_7d_pct": 0.4,
+      "signal_score": 30,
+      "signals": {
+        "liquidity": 84,
+        "momentum": 1,
+        "acceleration": 2
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "hyper-pay",
+      "symbol": "hpy",
+      "name": "Hyper Pay",
+      "price_usd": 0.00016056,
+      "market_cap_usd": 0,
+      "volume_24h_usd": 54.95,
+      "change_24h_pct": 0,
+      "change_7d_pct": 312,
+      "signal_score": 30,
+      "signals": {
+        "liquidity": 0,
+        "momentum": 0,
+        "acceleration": 100
+      },
+      "risk_flags": [
+        "market_cap_muito_baixo"
+      ]
+    },
+    {
+      "id": "unification",
+      "symbol": "fund",
+      "name": "Unification",
+      "price_usd": 0.00482576,
+      "market_cap_usd": 0,
+      "volume_24h_usd": 7.04,
+      "change_24h_pct": 7.5,
+      "change_7d_pct": -45.9,
+      "signal_score": 28,
+      "signals": {
+        "liquidity": 0,
         "momentum": 19,
-        "acceleration": 30
+        "acceleration": 70
+      },
+      "risk_flags": [
+        "market_cap_muito_baixo"
+      ]
+    },
+    {
+      "id": "space-id",
+      "symbol": "id",
+      "name": "SPACE ID",
+      "price_usd": 0.02951694,
+      "market_cap_usd": 12714000,
+      "volume_24h_usd": 13929693,
+      "change_24h_pct": 1.2,
+      "change_7d_pct": 6.6,
+      "signal_score": 27,
+      "signals": {
+        "liquidity": 73,
+        "momentum": 3,
+        "acceleration": 1
       },
       "risk_flags": []
     }
