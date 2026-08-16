@@ -1,12 +1,30 @@
 {
-  "generated_at": "2026-08-16T15:13:36.838Z",
+  "generated_at": "2026-08-16T16:14:57.586Z",
   "disclaimer": "Watchlist heuristica baseada em sinais publicos (volume, momentum). Nao e recomendacao de investimento. Moedas com esse perfil tem alto risco, incluindo pump-and-dump.",
   "trending_now": [
     {
       "id": "chip-2",
       "symbol": "CHIP",
       "name": "USD.AI",
-      "market_cap_rank": 362
+      "market_cap_rank": 368
+    },
+    {
+      "id": "pudgy-penguins",
+      "symbol": "PENGU",
+      "name": "Pudgy Penguins",
+      "market_cap_rank": 107
+    },
+    {
+      "id": "cysic",
+      "symbol": "CYS",
+      "name": "Cysic",
+      "market_cap_rank": 219
+    },
+    {
+      "id": "lighter",
+      "symbol": "LIT",
+      "name": "Lighter",
+      "market_cap_rank": 87
     },
     {
       "id": "bitcoin",
@@ -15,52 +33,34 @@
       "market_cap_rank": 1
     },
     {
-      "id": "pudgy-penguins",
-      "symbol": "PENGU",
-      "name": "Pudgy Penguins",
-      "market_cap_rank": 109
+      "id": "plume",
+      "symbol": "PLUME",
+      "name": "Plume",
+      "market_cap_rank": 278
     },
     {
-      "id": "cash-cat",
-      "symbol": "CASHCAT",
-      "name": "Cash Cat",
-      "market_cap_rank": 227
-    },
-    {
-      "id": "marscoin-4",
-      "symbol": "MARSCOIN",
-      "name": "MarsCoin",
-      "market_cap_rank": 396
+      "id": "pi-network",
+      "symbol": "PI",
+      "name": "Pi Network",
+      "market_cap_rank": 67
     },
     {
       "id": "humanity",
       "symbol": "H",
       "name": "Humanity",
-      "market_cap_rank": 140
+      "market_cap_rank": 129
     },
     {
-      "id": "plume",
-      "symbol": "PLUME",
-      "name": "Plume",
-      "market_cap_rank": 280
+      "id": "kiichain",
+      "symbol": "KII",
+      "name": "KiiChain",
+      "market_cap_rank": 697
     },
     {
-      "id": "ethereum",
-      "symbol": "ETH",
-      "name": "Ethereum",
-      "market_cap_rank": 2
-    },
-    {
-      "id": "chainlink",
-      "symbol": "LINK",
-      "name": "Chainlink",
-      "market_cap_rank": 16
-    },
-    {
-      "id": "pump-fun",
-      "symbol": "PUMP",
-      "name": "Pump.fun",
-      "market_cap_rank": 63
+      "id": "ether-fi",
+      "symbol": "ETHFI",
+      "name": "Ether.fi",
+      "market_cap_rank": 94
     }
   ],
   "watchlist": [
@@ -101,18 +101,18 @@
       ]
     },
     {
-      "id": "tenup",
-      "symbol": "tup",
-      "name": "Tenup",
-      "price_usd": 0.00322088,
+      "id": "vindax-coin",
+      "symbol": "vd",
+      "name": "VinDax Coin",
+      "price_usd": 0.01372413,
       "market_cap_usd": 0,
-      "volume_24h_usd": 8068.02,
-      "change_24h_pct": 33.8,
-      "change_7d_pct": 40.5,
+      "volume_24h_usd": 568.25,
+      "change_24h_pct": 34.3,
+      "change_7d_pct": 15.6,
       "signal_score": 60,
       "signals": {
         "liquidity": 0,
-        "momentum": 85,
+        "momentum": 86,
         "acceleration": 100
       },
       "risk_flags": [
@@ -120,21 +120,23 @@
       ]
     },
     {
-      "id": "towns",
-      "symbol": "towns",
-      "name": "Towns",
-      "price_usd": 0.00235981,
-      "market_cap_usd": 4973969,
-      "volume_24h_usd": 9102474,
-      "change_24h_pct": 9.3,
-      "change_7d_pct": -7.6,
-      "signal_score": 59,
+      "id": "kdag",
+      "symbol": "kdag",
+      "name": "King DAG",
+      "price_usd": 0.00044911,
+      "market_cap_usd": 0,
+      "volume_24h_usd": 18083.7,
+      "change_24h_pct": 28.6,
+      "change_7d_pct": 12.3,
+      "signal_score": 55,
       "signals": {
-        "liquidity": 100,
-        "momentum": 23,
-        "acceleration": 52
+        "liquidity": 0,
+        "momentum": 72,
+        "acceleration": 100
       },
-      "risk_flags": []
+      "risk_flags": [
+        "market_cap_muito_baixo"
+      ]
     },
     {
       "id": "attila",
@@ -156,19 +158,91 @@
       ]
     },
     {
-      "id": "particle-network",
-      "symbol": "parti",
-      "name": "Particle Network",
-      "price_usd": 0.023461,
-      "market_cap_usd": 5465997,
-      "volume_24h_usd": 9633630,
-      "change_24h_pct": 4.6,
-      "change_7d_pct": -12.9,
-      "signal_score": 49,
+      "id": "caica-coin",
+      "symbol": "cicc",
+      "name": "CAICA Coin",
+      "price_usd": 0.00314069,
+      "market_cap_usd": 0,
+      "volume_24h_usd": 10.89,
+      "change_24h_pct": 24.9,
+      "change_7d_pct": -4.6,
+      "signal_score": 52,
+      "signals": {
+        "liquidity": 0,
+        "momentum": 62,
+        "acceleration": 100
+      },
+      "risk_flags": [
+        "market_cap_muito_baixo"
+      ]
+    },
+    {
+      "id": "towns",
+      "symbol": "towns",
+      "name": "Towns",
+      "price_usd": 0.00231128,
+      "market_cap_usd": 4875567,
+      "volume_24h_usd": 9822529,
+      "change_24h_pct": 5.7,
+      "change_7d_pct": -10,
+      "signal_score": 51,
       "signals": {
         "liquidity": 100,
-        "momentum": 12,
-        "acceleration": 32
+        "momentum": 14,
+        "acceleration": 36
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "tenup",
+      "symbol": "tup",
+      "name": "Tenup",
+      "price_usd": 0.00333197,
+      "market_cap_usd": 0,
+      "volume_24h_usd": 8433.37,
+      "change_24h_pct": 24.4,
+      "change_7d_pct": 45.2,
+      "signal_score": 48,
+      "signals": {
+        "liquidity": 0,
+        "momentum": 61,
+        "acceleration": 90
+      },
+      "risk_flags": [
+        "market_cap_muito_baixo"
+      ]
+    },
+    {
+      "id": "superrare",
+      "symbol": "rare",
+      "name": "SuperRare",
+      "price_usd": 0.0119598,
+      "market_cap_usd": 9809457,
+      "volume_24h_usd": 16690298,
+      "change_24h_pct": 2.8,
+      "change_7d_pct": -10,
+      "signal_score": 44,
+      "signals": {
+        "liquidity": 100,
+        "momentum": 7,
+        "acceleration": 21
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "epic-chain",
+      "symbol": "epic",
+      "name": "Epic Chain",
+      "price_usd": 0.363423,
+      "market_cap_usd": 12213882,
+      "volume_24h_usd": 9205510,
+      "change_24h_pct": 5.5,
+      "change_7d_pct": -64.2,
+      "signal_score": 44,
+      "signals": {
+        "liquidity": 50,
+        "momentum": 14,
+        "acceleration": 73
       },
       "risk_flags": []
     },
@@ -176,16 +250,33 @@
       "id": "big-time",
       "symbol": "bigtime",
       "name": "Big Time",
-      "price_usd": 0.00537936,
-      "market_cap_usd": 15264632,
-      "volume_24h_usd": 18469869,
-      "change_24h_pct": 6.9,
-      "change_7d_pct": 1.2,
-      "signal_score": 44,
+      "price_usd": 0.00547742,
+      "market_cap_usd": 15551484,
+      "volume_24h_usd": 19113731,
+      "change_24h_pct": 6.3,
+      "change_7d_pct": 1.4,
+      "signal_score": 43,
       "signals": {
-        "liquidity": 81,
-        "momentum": 17,
-        "acceleration": 34
+        "liquidity": 82,
+        "momentum": 16,
+        "acceleration": 31
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "skyai",
+      "symbol": "skyai",
+      "name": "SkyAI",
+      "price_usd": 0.070578,
+      "market_cap_usd": 70444996,
+      "volume_24h_usd": 13110327,
+      "change_24h_pct": 12.7,
+      "change_7d_pct": -39.3,
+      "signal_score": 43,
+      "signals": {
+        "liquidity": 12,
+        "momentum": 32,
+        "acceleration": 92
       },
       "risk_flags": []
     },
@@ -193,10 +284,10 @@
       "id": "derive",
       "symbol": "drv",
       "name": "Derive",
-      "price_usd": 0.108586,
-      "market_cap_usd": 108580867,
-      "volume_24h_usd": 18122507,
-      "change_24h_pct": 17.1,
+      "price_usd": 0.108067,
+      "market_cap_usd": 108241848,
+      "volume_24h_usd": 18299216,
+      "change_24h_pct": 17.2,
       "change_7d_pct": 12.3,
       "signal_score": 42,
       "signals": {
@@ -207,89 +298,36 @@
       "risk_flags": []
     },
     {
-      "id": "alibabacoin",
-      "symbol": "abbc",
-      "name": "ABBC",
-      "price_usd": 0.00443643,
-      "market_cap_usd": 0,
-      "volume_24h_usd": 241.47,
-      "change_24h_pct": 20.5,
-      "change_7d_pct": 29.1,
-      "signal_score": 42,
-      "signals": {
-        "liquidity": 0,
-        "momentum": 51,
-        "acceleration": 82
-      },
-      "risk_flags": [
-        "market_cap_muito_baixo"
-      ]
-    },
-    {
-      "id": "heima",
-      "symbol": "hei",
-      "name": "Heima",
-      "price_usd": 0.134844,
-      "market_cap_usd": 10996325,
-      "volume_24h_usd": 14878101,
-      "change_24h_pct": 2.2,
-      "change_7d_pct": -19.9,
+      "id": "walrus-2",
+      "symbol": "wal",
+      "name": "Walrus",
+      "price_usd": 0.02220445,
+      "market_cap_usd": 55699070,
+      "volume_24h_usd": 19972956,
+      "change_24h_pct": -15.1,
+      "change_7d_pct": -13.3,
       "signal_score": 41,
       "signals": {
-        "liquidity": 90,
-        "momentum": 6,
-        "acceleration": 25
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "skyai",
-      "symbol": "skyai",
-      "name": "SkyAI",
-      "price_usd": 0.070766,
-      "market_cap_usd": 70753129,
-      "volume_24h_usd": 13262244,
-      "change_24h_pct": 12.1,
-      "change_7d_pct": -37.4,
-      "signal_score": 41,
-      "signals": {
-        "liquidity": 12,
-        "momentum": 30,
-        "acceleration": 87
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "epic-chain",
-      "symbol": "epic",
-      "name": "Epic Chain",
-      "price_usd": 0.351413,
-      "market_cap_usd": 11799515,
-      "volume_24h_usd": 9081944,
-      "change_24h_pct": 4,
-      "change_7d_pct": -65,
-      "signal_score": 41,
-      "signals": {
-        "liquidity": 51,
-        "momentum": 10,
+        "liquidity": 24,
+        "momentum": 38,
         "acceleration": 66
       },
       "risk_flags": []
     },
     {
-      "id": "akedo",
-      "symbol": "ake",
-      "name": "Akedo",
-      "price_usd": 0.00956193,
-      "market_cap_usd": 217682234,
-      "volume_24h_usd": 15339225,
-      "change_24h_pct": -9.3,
-      "change_7d_pct": 133.1,
+      "id": "particle-network",
+      "symbol": "parti",
+      "name": "Particle Network",
+      "price_usd": 0.02320809,
+      "market_cap_usd": 5410350,
+      "volume_24h_usd": 8982451,
+      "change_24h_pct": 0.7,
+      "change_7d_pct": -14.1,
       "signal_score": 40,
       "signals": {
-        "liquidity": 5,
-        "momentum": 23,
-        "acceleration": 100
+        "liquidity": 100,
+        "momentum": 2,
+        "acceleration": 14
       },
       "risk_flags": []
     },
@@ -316,67 +354,33 @@
       "id": "squid-3",
       "symbol": "quid",
       "name": "Squid",
-      "price_usd": 0.07182,
-      "market_cap_usd": 10281632,
-      "volume_24h_usd": 20326612,
-      "change_24h_pct": -1,
-      "change_7d_pct": -19.3,
+      "price_usd": 0.072308,
+      "market_cap_usd": 10368633,
+      "volume_24h_usd": 16684803,
+      "change_24h_pct": -0.5,
+      "change_7d_pct": -18.2,
       "signal_score": 39,
       "signals": {
         "liquidity": 100,
-        "momentum": 3,
-        "acceleration": 9
+        "momentum": 1,
+        "acceleration": 11
       },
       "risk_flags": []
     },
     {
-      "id": "giggle-fund",
-      "symbol": "giggle",
-      "name": "Giggle Fund",
-      "price_usd": 32.9,
-      "market_cap_usd": 32812805,
-      "volume_24h_usd": 18449393,
-      "change_24h_pct": 9.6,
-      "change_7d_pct": -2.9,
-      "signal_score": 37,
-      "signals": {
-        "liquidity": 37,
-        "momentum": 24,
-        "acceleration": 50
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "based-one",
-      "symbol": "based",
-      "name": "Based",
-      "price_usd": 0.080134,
-      "market_cap_usd": 18824505,
-      "volume_24h_usd": 17363787,
-      "change_24h_pct": 7.2,
-      "change_7d_pct": 9.5,
-      "signal_score": 37,
-      "signals": {
-        "liquidity": 61,
-        "momentum": 18,
-        "acceleration": 29
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "moonriver",
-      "symbol": "movr",
-      "name": "Moonriver",
-      "price_usd": 0.833607,
-      "market_cap_usd": 10377319,
-      "volume_24h_usd": 12435597,
-      "change_24h_pct": 1,
-      "change_7d_pct": -27.8,
+      "id": "block-street",
+      "symbol": "bsb",
+      "name": "Block Street",
+      "price_usd": 0.133364,
+      "market_cap_usd": 31522376,
+      "volume_24h_usd": 13266735,
+      "change_24h_pct": 9.8,
+      "change_7d_pct": -12.6,
       "signal_score": 36,
       "signals": {
-        "liquidity": 80,
-        "momentum": 3,
-        "acceleration": 25
+        "liquidity": 28,
+        "momentum": 25,
+        "acceleration": 58
       },
       "risk_flags": []
     },
@@ -385,14 +389,14 @@
       "symbol": "gmeb",
       "name": "GameStop (bStocks Tokenized Stock)",
       "price_usd": 18.8,
-      "market_cap_usd": 6001492,
-      "volume_24h_usd": 17071909,
-      "change_24h_pct": 0.1,
+      "market_cap_usd": 6000960,
+      "volume_24h_usd": 17018068,
+      "change_24h_pct": 0.3,
       "change_7d_pct": 0,
       "signal_score": 35,
       "signals": {
         "liquidity": 100,
-        "momentum": 0,
+        "momentum": 1,
         "acceleration": 0
       },
       "risk_flags": []
@@ -417,57 +421,87 @@
       ]
     },
     {
-      "id": "kdag",
-      "symbol": "kdag",
-      "name": "King DAG",
-      "price_usd": 0.00050523,
-      "market_cap_usd": 0,
-      "volume_24h_usd": 20169,
-      "change_24h_pct": 14.3,
-      "change_7d_pct": -0.1,
+      "id": "heima",
+      "symbol": "hei",
+      "name": "Heima",
+      "price_usd": 0.13126,
+      "market_cap_usd": 10700440,
+      "volume_24h_usd": 13744150,
+      "change_24h_pct": -1.9,
+      "change_7d_pct": -22.7,
       "signal_score": 34,
       "signals": {
-        "liquidity": 0,
-        "momentum": 36,
-        "acceleration": 72
+        "liquidity": 86,
+        "momentum": 5,
+        "acceleration": 7
       },
-      "risk_flags": [
-        "market_cap_muito_baixo"
-      ]
+      "risk_flags": []
     },
     {
-      "id": "globalchainz",
-      "symbol": "gcz",
-      "name": "GlobalChainZ",
-      "price_usd": 0.04717743,
-      "market_cap_usd": 0,
-      "volume_24h_usd": 53607,
-      "change_24h_pct": -14.3,
-      "change_7d_pct": -3.4,
+      "id": "nillion",
+      "symbol": "nil",
+      "name": "Nillion",
+      "price_usd": 0.0467628,
+      "market_cap_usd": 23359937,
+      "volume_24h_usd": 19907883,
+      "change_24h_pct": -3.4,
+      "change_7d_pct": 25.3,
       "signal_score": 33,
       "signals": {
-        "liquidity": 0,
-        "momentum": 36,
-        "acceleration": 69
+        "liquidity": 57,
+        "momentum": 9,
+        "acceleration": 35
       },
-      "risk_flags": [
-        "market_cap_muito_baixo"
-      ]
+      "risk_flags": []
     },
     {
-      "id": "superrare",
-      "symbol": "rare",
-      "name": "SuperRare",
-      "price_usd": 0.0117285,
-      "market_cap_usd": 9625837,
-      "volume_24h_usd": 12200522,
-      "change_24h_pct": -2.2,
-      "change_7d_pct": -11.6,
+      "id": "quack-ai",
+      "symbol": "q",
+      "name": "Quack AI",
+      "price_usd": 0.02745202,
+      "market_cap_usd": 119178434,
+      "volume_24h_usd": 8588735,
+      "change_24h_pct": 15.5,
+      "change_7d_pct": 24.3,
+      "signal_score": 33,
+      "signals": {
+        "liquidity": 5,
+        "momentum": 39,
+        "acceleration": 60
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "perle",
+      "symbol": "prl",
+      "name": "Perle",
+      "price_usd": 0.414627,
+      "market_cap_usd": 72456138,
+      "volume_24h_usd": 20496189,
+      "change_24h_pct": 14,
+      "change_7d_pct": 38.6,
       "signal_score": 32,
       "signals": {
-        "liquidity": 84,
-        "momentum": 6,
-        "acceleration": 3
+        "liquidity": 19,
+        "momentum": 35,
+        "acceleration": 42
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "giggle-fund",
+      "symbol": "giggle",
+      "name": "Giggle Fund",
+      "price_usd": 32.1,
+      "market_cap_usd": 32095270,
+      "volume_24h_usd": 18730188,
+      "change_24h_pct": 6.1,
+      "change_7d_pct": -6.9,
+      "signal_score": 30,
+      "signals": {
+        "liquidity": 39,
+        "momentum": 15,
+        "acceleration": 35
       },
       "risk_flags": []
     },
@@ -491,36 +525,53 @@
       ]
     },
     {
-      "id": "perle",
-      "symbol": "prl",
-      "name": "Perle",
-      "price_usd": 0.401764,
-      "market_cap_usd": 70478542,
-      "volume_24h_usd": 19689884,
-      "change_24h_pct": 11.6,
-      "change_7d_pct": 34.7,
-      "signal_score": 27,
+      "id": "bubblemaps",
+      "symbol": "bmt",
+      "name": "Bubblemaps",
+      "price_usd": 0.01512159,
+      "market_cap_usd": 10908157,
+      "volume_24h_usd": 10671011,
+      "change_24h_pct": -2.4,
+      "change_7d_pct": -36,
+      "signal_score": 29,
       "signals": {
-        "liquidity": 19,
-        "momentum": 29,
-        "acceleration": 33
+        "liquidity": 65,
+        "momentum": 6,
+        "acceleration": 14
       },
       "risk_flags": []
     },
     {
-      "id": "block-street",
-      "symbol": "bsb",
-      "name": "Block Street",
-      "price_usd": 0.128147,
-      "market_cap_usd": 30295841,
-      "volume_24h_usd": 11487950,
-      "change_24h_pct": 6.3,
-      "change_7d_pct": -15.7,
+      "id": "based-one",
+      "symbol": "based",
+      "name": "Based",
+      "price_usd": 0.078273,
+      "market_cap_usd": 18387105,
+      "volume_24h_usd": 17486727,
+      "change_24h_pct": 2.6,
+      "change_7d_pct": 4.5,
       "signal_score": 27,
       "signals": {
-        "liquidity": 25,
-        "momentum": 16,
-        "acceleration": 43
+        "liquidity": 63,
+        "momentum": 7,
+        "acceleration": 10
+      },
+      "risk_flags": []
+    },
+    {
+      "id": "moonriver",
+      "symbol": "movr",
+      "name": "Moonriver",
+      "price_usd": 0.829651,
+      "market_cap_usd": 10330058,
+      "volume_24h_usd": 9956064,
+      "change_24h_pct": -3.2,
+      "change_7d_pct": -28.3,
+      "signal_score": 27,
+      "signals": {
+        "liquidity": 64,
+        "momentum": 8,
+        "acceleration": 4
       },
       "risk_flags": []
     },
@@ -538,61 +589,6 @@
         "liquidity": 0,
         "momentum": 28,
         "acceleration": 57
-      },
-      "risk_flags": [
-        "market_cap_muito_baixo"
-      ]
-    },
-    {
-      "id": "hex",
-      "symbol": "hex",
-      "name": "HEX",
-      "price_usd": 0.00151168,
-      "market_cap_usd": 0,
-      "volume_24h_usd": 161249,
-      "change_24h_pct": -11.8,
-      "change_7d_pct": -4,
-      "signal_score": 27,
-      "signals": {
-        "liquidity": 0,
-        "momentum": 30,
-        "acceleration": 56
-      },
-      "risk_flags": [
-        "market_cap_muito_baixo"
-      ]
-    },
-    {
-      "id": "the-black-bull",
-      "symbol": "ansem",
-      "name": "The Black Bull",
-      "price_usd": 0.234734,
-      "market_cap_usd": 97855756,
-      "volume_24h_usd": 8999404,
-      "change_24h_pct": -7,
-      "change_7d_pct": 36,
-      "signal_score": 26,
-      "signals": {
-        "liquidity": 6,
-        "momentum": 18,
-        "acceleration": 61
-      },
-      "risk_flags": []
-    },
-    {
-      "id": "unification",
-      "symbol": "fund",
-      "name": "Unification",
-      "price_usd": 0.00564091,
-      "market_cap_usd": 0,
-      "volume_24h_usd": 11.47,
-      "change_24h_pct": -3.2,
-      "change_7d_pct": 83.9,
-      "signal_score": 26,
-      "signals": {
-        "liquidity": 0,
-        "momentum": 8,
-        "acceleration": 76
       },
       "risk_flags": [
         "market_cap_muito_baixo"
